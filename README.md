@@ -1,3 +1,3 @@
 # css-grid
 
-simple css grid that make you site responsive
+simple css grid that makes your site responsive
