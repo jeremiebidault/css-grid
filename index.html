@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="grid.css" rel="stylesheet">
 		<style>
 			* {
 				margin: 0;
 				padding: 0;
-				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-family: Helvetica, Arial, sans-serif;
 				font-size: 14px;
 				font-weight: 300;
+			}
+			[class*="col-"] {
+				background: #eee;
+			}
+			[class*="col-"]:hover {
+				background: #ccc;
 			}
 		</style>
 	</head>
 	<body>
-
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2">col-lg-2</div>
-				<div class="col-sm-offset-1 col-sm-3">col-sm-offset-1 col-sm-3</div>
-				<div class="col-sm-4">col-sm-4</div>
+				<div class="col-1">col-1</div>
+				<div class="col-1 offset-1">col-1 offset-1</div>
+				<div class="col-1 offset-1">col-1 offset-1</div>
+				<div class="col-1 offset-1">col-1 offset-1</div>
+				<div class="col-1 offset-1">col-1 offset-1</div>
+				<div class="col-1 offset-1">col-1 offset-1</div>
+			</div>
+			<div class="row">
 				<div class="col-sm-2">col-sm-2</div>
+				<div class="col-md-3 offset-sm-1">col-md-3 offset-sm-1</div>
+				<div class="col-lg-4">col-lg-4</div>
+				<div class="col-xl-2">col-xl-2</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-3">col-xs-3</div>
-				<div class="col-sm-offset-3 col-sm-6">col-sm-offset-1 col-sm-6</div>
+				<div class="col-xl-2">col-xl-2</div>
+				<div class="col-sm-6 offset-sm-4">col-sm-6 offset-sm-4</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-7 col-sm-push-3">col-sm-7 col-sm-push-3</div>
+				<div class="col-sm-7">col-sm-7</div>
+				<div class="col-1">col-1</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-8">col-sm-8</div>
